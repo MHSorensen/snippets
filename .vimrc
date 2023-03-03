@@ -46,7 +46,7 @@ nmap <leader><leader> :FZF<CR>
 set timeoutlen=1000 ttimeoutlen=0
 
 " Enable mouse support in vim
-set mouse=v
+set mouse=a
 
 " Auto install plugins
 if empty(glob('~/.vim/autoload/plug.vim'))
